@@ -1,0 +1,734 @@
+/* Reset CSS / General CSS */
+
+* {
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+/* Dekstop CSS Login Page */
+@media screen and (min-width: 992px){
+    .login-container {
+        background-image: url("/assets/img/bg-login.png");
+        background-size:cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+        background-position: center; /* Memusatkan gambar */
+        background-repeat: no-repeat; /* Mencegah pengulangan */
+        background-attachment: fixed; /* Membuat gambar tetap saat scrolling */
+        height: 100vh; /* Memastikan tinggi penuh sesuai viewport */
+        width: 100vw; /* Memastikan lebar penuh sesuai viewport */
+    
+    }
+    
+    .login-header {
+        color: white;
+        text-align: center;
+    }
+    
+    .login-header h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .card-login {
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        width: 530px;
+        height: fit-content;
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+        padding: 40px;
+    }
+    
+    
+    .login-header {
+        margin-bottom: 2.5em;
+    }
+    
+    .login-header, h2 {
+        margin-bottom: 0.4em;
+    }
+    
+    .login-header, img {
+        margin-bottom: 2.5em;
+    }
+    
+    .logo {
+        display: block;
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        color: white;
+        margin-bottom: 0.8em;
+        font-size: 1.12em;
+        font-weight: 500;
+    }
+
+    .field-container input {
+        width: 100%;
+        height: 3em;
+        padding: 1.5em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 1em;
+        transition: all 0.3s ease;
+        background-color: transparent;
+        margin-bottom: 2.5em;
+    }
+
+.field-container-password {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E7E3FC3B;
+    border-radius: 4em;
+    padding: 0 1em;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 3em;
+    padding: 0.5em;
+    font-size: 1em;
+    background: transparent;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+.input-group i {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+    
+    .container-link {
+        display: flex;
+        margin-bottom: 2.5em;
+    
+    }
+    
+    .register-link {
+        width: 100%;
+    }
+    
+    .register-link span {
+        color: #C1C2C4;
+        font-weight: 400;
+        font-size: 1em;
+
+    }
+    
+    .register-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    .forgot-link {
+        box-sizing: border-box;
+        width: 40%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .forgot-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    input {
+        color: #C1C2C4;
+
+    }
+    
+    input::placeholder {
+        color: #C1C2C4;
+        font-weight: 400;
+    }
+    
+    
+    .btn-group p {
+        color: #9D9EA1;
+        font-size: 1em;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        margin-bottom: 0.8em;
+        transition: all 0.3s ease;
+    }
+    
+    
+    .btn-group a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-group a:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    a img {
+    display: flex;
+    margin: 10px 10px 10px 0px;
+    }
+    
+    
+    
+    .btn-login {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 1em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #3D4142;
+        margin-bottom: 0.8em;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+
+    }
+
+    .btn-login:hover {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        border-radius: 4em;
+        font-size: 1em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #232525;
+        color: gray;
+        transition: all 0.3s ease;
+    }
+    
+  }
+
+
+  /* Tablet CSS Login Page */
+
+  @media screen and (min-width: 480px){
+    .login-container {
+        background-image: url("/assets/img/bg-login.png");
+        background-size:cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+        background-position: center; /* Memusatkan gambar */
+        background-repeat: no-repeat; /* Mencegah pengulangan */
+        background-attachment: fixed; /* Membuat gambar tetap saat scrolling */
+        height: 100vh; /* Memastikan tinggi penuh sesuai viewport */
+        width: 100vw; /* Memastikan lebar penuh sesuai viewport */
+    
+    }
+    
+    .login-header {
+        color: white;
+        text-align: center;
+    }
+    
+    .login-header h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .card-login {
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        width: 530px;
+        height: fit-content;
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+        padding: 40px;
+    }
+    
+    
+    .login-header {
+        margin-bottom: 2.5em;
+    }
+    
+    .login-header, h2 {
+        margin-bottom: 0.4em;
+    }
+    
+    .login-header, img {
+        margin-bottom: 2.5em;
+    }
+    
+    .logo {
+        display: block;
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        color: white;
+        margin-bottom: 0.8em;
+        font-size: 1.12em;
+        font-weight: 500;
+    }
+
+    .field-container input {
+        width: 100%;
+        height: 3em;
+        padding: 1.5em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 1em;
+        transition: all 0.3s ease;
+        background-color: transparent;
+        margin-bottom: 2.5em;
+    }
+
+.field-container-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E7E3FC3B;
+    border-radius: 4em;
+    padding: 0 1em;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 3em;
+    padding: 0.5em;
+    transition: all 0.3s ease;
+    font-size: 1em;
+    background: transparent;
+    color: white;
+}
+
+.input-group i {
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+    
+    .container-link {
+        display: flex;
+        margin-bottom: 2.5em;
+    
+    }
+    
+    .register-link {
+        width: 100%;
+    }
+    
+    .register-link span {
+        color: #C1C2C4;
+        font-weight: 400;
+        font-size: 1em;
+
+    }
+    
+    .register-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    .forgot-link {
+        box-sizing: border-box;
+        width: 40%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .forgot-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    input {
+        color: #C1C2C4;
+
+    }
+    
+    input::placeholder {
+        color: #C1C2C4;
+        font-weight: 400;
+        
+    }
+    
+    
+    .btn-group p {
+        color: #9D9EA1;
+        font-size: 1em;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        margin-bottom: 0.8em;
+        transition: all 0.3s ease;
+    }
+    
+    
+    .btn-group a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-group a:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    
+    a img {
+    display: flex;
+    margin: 10px 10px 10px 0px;
+    }
+    
+    
+    
+    .btn-login {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 1em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #3D4142;
+        margin-bottom: 0.8em;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .btn-login:hover {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        border-radius: 4em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #232525;
+        color: gray;
+        transition: all 0.3s ease;
+    }
+    
+  }
+
+  /* Mobile CSS Login Page */
+
+    @media screen and (max-width: 480px) and (min-width:0px){
+    .login-container {
+        background-image: url("/assets/img/bg-login.png");
+        background-size:cover; /* Memastikan gambar menyesuaikan tanpa distorsi */
+        background-position: center; /* Memusatkan gambar */
+        background-repeat: no-repeat; /* Mencegah pengulangan */
+        background-attachment: fixed; /* Membuat gambar tetap saat scrolling */
+        height: 100vh; /* Memastikan tinggi penuh sesuai viewport */
+        width: 100vw; /* Memastikan lebar penuh sesuai viewport */
+    
+    }
+    
+    .login-header {
+        color: white;
+        text-align: center;
+    }
+    
+    .login-header, h2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 0.4em;
+    }
+    .login-header, span {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 2.5em;
+    }
+    
+    .card-login {
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        width: 332px;
+        height: fit-content;
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+        padding: 20px;
+    }
+ 
+    
+    .logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+
+    .logo img {
+        width: 94px;
+        height: 24px;
+    }
+    
+    label {
+        display: block;
+        color: white;
+        margin-bottom: 0.8em;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .field-container input {
+        width: 100%;
+        height: 3em;
+        padding: 1.5em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 0.8em;
+        transition: all 0.3s ease;
+        background-color: transparent;
+        margin-bottom: 2em;
+    }
+
+.field-container-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E7E3FC3B;
+    border-radius: 4em;
+    padding: 0 1em;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 3em;
+    padding: 0.5em;
+    font-size: 0.8em;
+    background: transparent;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.input-group i {
+    color: white;
+    font-size: 0.8em;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+    
+    .container-link {
+        display: flex;
+        margin-bottom: 2em;
+        align-items: center;
+    
+    }
+    
+    .register-link {
+        width: 100%;
+    }
+    
+    .register-link span {
+        color: #C1C2C4;
+        font-weight: 400;
+        font-size: 0.8em;
+
+    }
+    
+    .register-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+    
+    .forgot-link {
+        box-sizing: border-box;
+        width: 70%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .forgot-link a {
+        color: white;
+        font-weight: 600;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+    
+    input {
+        color: #C1C2C4;
+
+    }
+    
+    input::placeholder {
+        color: #C1C2C4;
+        font-weight: 400;
+    }
+    
+    
+    .btn-group p {
+        color: #9D9EA1;
+        font-size: 0.8em;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        margin-bottom: 0.8em;
+    }
+    
+    
+    .btn-group a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        text-decoration: none;
+        color: white;
+        font-size: 0.8em;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-group a:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4em;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+    }
+    
+    a img {
+    display: flex;
+    margin: 10px 10px 10px 0px;
+    }
+    
+    
+    
+    .btn-login {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        border-radius: 4em;
+        font-size: 0.8em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #3D4142;
+        margin-bottom: 0.8em;
+        color: white;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .btn-login:hover {
+        width: 100%;
+        height: 3em;
+        border: 1px solid #E7E3FC3B;
+        background: #3D4142;
+        border-radius: 4em;
+        font-size: 0.8em;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        background: #232525;
+        color: gray;
+        transition: all 0.3s ease;
+    }
+    
+  }
+
+
+
+
