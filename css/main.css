@@ -2045,7 +2045,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: rgb(48, 48, 51);
+    border-top: 1px solid #E7E3FC3B;
     padding: 60px 80px;
     display: flex;
     align-items: center;
@@ -2139,3 +2139,4 @@ padding-top: 0.8em;
 
  }
 
+ /* Mobile CSS Landing Page */
