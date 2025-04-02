@@ -1879,7 +1879,7 @@ body {
 
 
 
-/* Film Trending */
+/* Section 3 */
 
 .trending-container {
     padding: 3em 5em 3em 5em;
@@ -1959,7 +1959,7 @@ body {
 
 
 .new-container {
-    padding: 3em 5em 3em 5em;
+    padding: 3em 5em 10em 5em;
 }
 
 .new-headline {
@@ -2138,3 +2138,4 @@ padding-top: 0.8em;
 
 
  }
+
