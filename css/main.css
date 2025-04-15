@@ -3197,7 +3197,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(-1.5em);
+    transform: translateY(2em) translateX(0.5em);
 }
 
 .rewatch-prev {
@@ -3206,7 +3206,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(1.5em);
+    transform: translateY(2em) translateX(-0.5em);
 }
 
 
@@ -3298,7 +3298,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(-1.5em);
+    transform: translateY(2em) translateX(0.5em);
 }
 
 .top-prev {
@@ -3307,7 +3307,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(1.5em);
+    transform: translateY(2em) translateX(-0.5em);
 }
 
 /* End Section 2 */
@@ -3394,7 +3394,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(-1.5em);
+    transform: translateY(2em) translateX(0.5em);
 }
 
 .trending-prev {
@@ -3403,7 +3403,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(1.5em);
+    transform: translateY(2em) translateX(-0.5em);
 }
 
 
@@ -3497,7 +3497,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(-1.5em);
+    transform: translateY(2em) translateX(0.5em);
 }
 
 .new-prev {
@@ -3506,7 +3506,7 @@ padding-top: 0.8em;
     padding: 1em 1.3em;
     border-radius: 4em;
     position: absolute;
-    transform: translateY(2em) translateX(1.5em);
+    transform: translateY(2em) translateX(-0.5em);
 }
 
 
