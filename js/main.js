@@ -1,15 +1,112 @@
-// <!-- Initialize Swiper -->
+// <!-- Rewatch Swiper -->
 
-  let swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
+  let swiper = new Swiper(".rewatch-card", {
+    slidesPerView: 4,
+    spaceBetween: 20,
     loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+    
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".rewatch-next",
+      prevEl: ".rewatch-prev",
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 4,
+      },
     },
   });
+
+
+// <!-- Top Swiper -->
+
+  let topswiper = new Swiper(".top-card-rating", {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    
+    navigation: {
+      nextEl: ".top-next",
+      prevEl: ".top-prev",
+    },
+    
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 5,
+      },
+    },
+  });
+
+  // <!-- Trending Swiper -->
+
+  let trendingswiper = new Swiper(".trending-card-rating", {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    
+    navigation: {
+      nextEl: ".trending-next",
+      prevEl: ".trending-prev",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 5,
+      },
+    },
+  });
+
+
+   // <!-- Rilis Terbaru Swiper -->
+
+   let rilisswiper = new Swiper(".new-card-rating", {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    
+    navigation: {
+      nextEl: ".new-next",
+      prevEl: ".new-prev",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 5,
+      },
+    },
+  });
+
