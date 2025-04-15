@@ -14,7 +14,7 @@
       320: {
         slidesPerView: 1,
       },
-      600: {
+      480: {
         slidesPerView: 2,
       },
       768: {
@@ -43,8 +43,8 @@
       320: {
         slidesPerView: 2,
       },
-      600: {
-        slidesPerView: 3,
+      480: {
+        slidesPerView: 2,
       },
       768: {
         slidesPerView: 4,
@@ -70,8 +70,8 @@
       320: {
         slidesPerView: 2,
       },
-      600: {
-        slidesPerView: 3,
+      480: {
+        slidesPerView: 2,
       },
       768: {
         slidesPerView: 4,
@@ -98,8 +98,8 @@
       320: {
         slidesPerView: 2,
       },
-      600: {
-        slidesPerView: 3,
+      480: {
+        slidesPerView: 2,
       },
       768: {
         slidesPerView: 4,
